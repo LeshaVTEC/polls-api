@@ -1,4 +1,4 @@
-package org.alexey.lesson4;
+package org.alexey.voteform.entity;
 
 public enum Singer {
     TRUBECKOY, SHEVCHUK, MAKAREVICH, KIPELOV

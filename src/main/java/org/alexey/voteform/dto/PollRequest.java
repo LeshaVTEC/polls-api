@@ -1,4 +1,7 @@
-package org.alexey.lesson4;
+package org.alexey.voteform.dto;
+
+import org.alexey.voteform.entity.Genre;
+import org.alexey.voteform.entity.Singer;
 
 import java.util.List;
 
@@ -7,8 +10,6 @@ public class PollRequest {
     private List<Genre> favoriteGenre;
     private String shortText;
 
-    public PollRequest() {
-    }
 
     public PollRequest(Singer bestSinger, List<Genre> favoriteGenre, String shortText) {
         this.bestSinger = bestSinger;
